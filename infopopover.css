@@ -1,0 +1,53 @@
+/*!
+ * Info Popover 0.1.0 by @Garethderioth
+ * https://github.com/Garethderioth/infopopover 
+ */
+
+.info-popover-wrapper {
+    position: absolute;
+    padding: 2em;
+}
+
+.info-popover-wrapper:after {
+  position: absolute;
+  left: 2.5em;
+  content: "";
+  border-top:  10px solid #444;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.info-popover {
+    background: #f5f5f5;
+    border: 2px solid #444;
+    border-radius: 6px;
+    color: #111;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35), 0 1px 0 0 rgba(255, 255, 255 ,0.9) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
+    width: 310px;
+}
+
+.info-popover, .info-popover-bd {
+    overflow: hidden;
+	_overflow: visible;
+	zoom: 1;
+}
+
+.info-popover-bd {
+    padding: 0.5em;
+    text-align: left;
+}
+
+.info-popover .info-popover-img {
+	background: #3C8DC5;
+	float: left;
+}
+
+.info-popover .info-popover-img img {
+	display: block;
+}
+
+.info-popover .info-popover-imgExt {
+	float: right;
+	margin-left: 1em;
+}
