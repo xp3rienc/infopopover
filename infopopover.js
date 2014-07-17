@@ -107,7 +107,6 @@
 				
 				//Instance hover functions
 				$el.on("mouseenter", showInfopopover);
-				$el.trigger("mouseover");
 				$("body").on("mouseover.hideinfopopover", hideInfoPopover);
 			}
 		});
